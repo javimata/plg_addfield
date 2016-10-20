@@ -15,6 +15,8 @@ class plgContentAddfield extends JPlugin
 	{
 		$app    = JFactory::getApplication();
 		$option = $app->input->get('option');
+
+		$name = $form->getName();
  
 		switch($option)
 		{
@@ -22,7 +24,7 @@ class plgContentAddfield extends JPlugin
 				if ($app->isAdmin())
 				{
 					JForm::addFormPath(__DIR__ . '/forms');
-					$form->loadFile('content', false);
+					$form->loadFile('imagenes', false);
 				}
  
 				return true;
