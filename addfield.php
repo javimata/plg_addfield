@@ -15,8 +15,6 @@ class plgContentAddfield extends JPlugin
 	{
 		$app    = JFactory::getApplication();
 		$option = $app->input->get('option');
-
-		$name = $form->getName();
  
 		switch($option)
 		{
