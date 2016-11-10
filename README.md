@@ -1,2 +1,0 @@
-# plg_addfield
-AGREGAR CAMPOS PERSONALIZADOS 
